@@ -27,10 +27,7 @@ class CustomersCounter extends StatelessWidget {
           colorFilter: ColorFilter.mode(color ?? Colors.black, BlendMode.srcIn),
         ),
         const SizedBox(width: 4),
-        Text(
-          label,
-          style: textStyle ?? context.textTheme.bodyMedium,
-        ),
+        Text(label, style: textStyle ?? context.textTheme.bodyMedium),
       ],
     );
   }
